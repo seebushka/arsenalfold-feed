@@ -1,15 +1,473 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "team": "Arsenal FC",
-  "updated_at_utc": "2026-11-21T16:28:12Z",
-  "description": "Arsenal broadcaster listings (partial). Existing listings unchanged in this phone-publisher connectivity test.",
-  "matches": [
+  "season": "2026/27",
+  "updated_at_utc": "2026-11-21T16:58:07Z",
+  "data_quality": {
+    "premier_league_fixtures": "38/38 scheduled opponents, with unconfirmed times marked TBC",
+    "champions_league_fixtures": "8/8 announced league-phase fixtures; later knockout ties are added after draws",
+    "domestic_cups": "two verified Carabao Cup matches; FA Cup draw pending; future rounds added when confirmed",
+    "league_tables": "PARTIAL TOP SEVEN ONLY: positions can change during live matchdays",
+    "broadcasts": "PARTIAL: next two fixtures only; not an exhaustive worldwide list",
+    "results": "Verified Arsenal results through 7 Nov 2026; no live score disclosure"
+  },
+  "fixtures": [
     {
-      "home": "Newcastle",
-      "away": "Arsenal",
-      "competition": "Premier League",
+      "id": 20261001,
+      "competition": "PREMIER",
+      "league_id": 0,
+      "season_id": 2026,
+      "date_local": "2026-08-21",
+      "kickoff_utc": "2026-08-21T19:00:00Z",
+      "kickoff_confirmed": true,
+      "status": "completed",
+      "home": {
+        "id": 19,
+        "name": "Arsenal",
+        "badge": "https://crests.football-data.org/57.png"
+      },
+      "away": {
+        "id": 20101,
+        "name": "Coventry City",
+        "badge": null
+      },
+      "finished": true,
+      "home_score": 3,
+      "away_score": 0,
+      "round": "Matchweek 1",
+      "competition_logo": null,
+      "broadcasters": [],
+      "source_url": "https://www.premierleague.com/en/news/4675132/all-of-arsenals-fixtures-for-202627-premier-league-season"
+    },
+    {
+      "id": 20261002,
+      "competition": "PREMIER",
+      "league_id": 0,
+      "season_id": 2026,
+      "date_local": "2026-08-31",
+      "kickoff_utc": "2026-08-31T19:00:00Z",
+      "kickoff_confirmed": true,
+      "status": "completed",
+      "home": {
+        "id": 58,
+        "name": "Aston Villa",
+        "badge": "https://crests.football-data.org/58.png"
+      },
+      "away": {
+        "id": 19,
+        "name": "Arsenal",
+        "badge": "https://crests.football-data.org/57.png"
+      },
+      "finished": true,
+      "home_score": 0,
+      "away_score": 1,
+      "round": "Matchweek 2",
+      "competition_logo": null,
+      "broadcasters": [],
+      "source_url": "https://www.premierleague.com/en/news/4675132/all-of-arsenals-fixtures-for-202627-premier-league-season"
+    },
+    {
+      "id": 20261003,
+      "competition": "PREMIER",
+      "league_id": 0,
+      "season_id": 2026,
+      "date_local": "2026-09-06",
+      "kickoff_utc": "2026-09-06T15:30:00Z",
+      "kickoff_confirmed": true,
+      "status": "completed",
+      "home": {
+        "id": 19,
+        "name": "Arsenal",
+        "badge": "https://crests.football-data.org/57.png"
+      },
+      "away": {
+        "id": 61,
+        "name": "Chelsea",
+        "badge": "https://crests.football-data.org/61.png"
+      },
+      "finished": true,
+      "home_score": 2,
+      "away_score": 1,
+      "round": "Matchweek 3",
+      "competition_logo": null,
+      "broadcasters": [],
+      "source_url": "https://www.premierleague.com/en/news/4675132/all-of-arsenals-fixtures-for-202627-premier-league-season"
+    },
+    {
+      "id": 20262001,
+      "competition": "CHAMPIONS",
+      "league_id": 0,
+      "season_id": 2026,
+      "date_local": "2026-09-09",
+      "kickoff_utc": "2026-09-09T19:00:00Z",
+      "kickoff_confirmed": true,
+      "status": "completed",
+      "home": {
+        "id": 113,
+        "name": "Napoli",
+        "badge": "https://crests.football-data.org/113.png"
+      },
+      "away": {
+        "id": 19,
+        "name": "Arsenal",
+        "badge": "https://crests.football-data.org/57.png"
+      },
+      "finished": true,
+      "home_score": 0,
+      "away_score": 1,
+      "round": "League phase · MD1",
+      "competition_logo": null,
+      "broadcasters": [],
+      "source_url": "https://www.uefa.com/uefachampionsleague/news/02a8-2176fa83582b-d99f0b27f405-1000--champions-league-league-phase-fixtures-by-team/"
+    },
+    {
+      "id": 20261004,
+      "competition": "PREMIER",
+      "league_id": 0,
+      "season_id": 2026,
+      "date_local": "2026-09-12",
+      "kickoff_utc": "2026-09-12T19:00:00Z",
+      "kickoff_confirmed": true,
+      "status": "completed",
+      "home": {
+        "id": 71,
+        "name": "Sunderland",
+        "badge": "https://crests.football-data.org/71.png"
+      },
+      "away": {
+        "id": 19,
+        "name": "Arsenal",
+        "badge": "https://crests.football-data.org/57.png"
+      },
+      "finished": true,
+      "home_score": 0,
+      "away_score": 2,
+      "round": "Matchweek 4",
+      "competition_logo": null,
+      "broadcasters": [],
+      "source_url": "https://www.premierleague.com/en/news/4675132/all-of-arsenals-fixtures-for-202627-premier-league-season"
+    },
+    {
+      "id": 20263001,
+      "competition": "CARABAO",
+      "league_id": 0,
+      "season_id": 2026,
+      "date_local": "2026-09-15",
+      "kickoff_utc": "2026-09-15T19:00:00Z",
+      "kickoff_confirmed": true,
+      "status": "completed",
+      "home": {
+        "id": 349,
+        "name": "Ipswich Town",
+        "badge": "https://crests.football-data.org/349.png"
+      },
+      "away": {
+        "id": 19,
+        "name": "Arsenal",
+        "badge": "https://crests.football-data.org/57.png"
+      },
+      "finished": true,
+      "home_score": 2,
+      "away_score": 4,
+      "round": "Round 3",
+      "competition_logo": null,
+      "broadcasters": [],
+      "source_url": "https://www.efl.com/news/2026/september/15/dowman-brace-and-szoboszlai-screamer-star-as-arsenal-and-liverpool-progress-in-carabao-cup/"
+    },
+    {
+      "id": 20261005,
+      "competition": "PREMIER",
+      "league_id": 0,
+      "season_id": 2026,
+      "date_local": "2026-09-19",
+      "kickoff_utc": "2026-09-19T14:00:00Z",
+      "kickoff_confirmed": true,
+      "status": "completed",
+      "home": {
+        "id": 397,
+        "name": "Brighton",
+        "badge": "https://crests.football-data.org/397.png"
+      },
+      "away": {
+        "id": 19,
+        "name": "Arsenal",
+        "badge": "https://crests.football-data.org/57.png"
+      },
+      "finished": true,
+      "home_score": 3,
+      "away_score": 0,
+      "round": "Matchweek 5",
+      "competition_logo": null,
+      "broadcasters": [],
+      "source_url": "https://www.premierleague.com/en/news/4675132/all-of-arsenals-fixtures-for-202627-premier-league-season"
+    },
+    {
+      "id": 20261006,
+      "competition": "PREMIER",
+      "league_id": 0,
+      "season_id": 2026,
+      "date_local": "2026-10-10",
+      "kickoff_utc": "2026-10-10T11:30:00Z",
+      "kickoff_confirmed": true,
+      "status": "completed",
+      "home": {
+        "id": 19,
+        "name": "Arsenal",
+        "badge": "https://crests.football-data.org/57.png"
+      },
+      "away": {
+        "id": 341,
+        "name": "Leeds United",
+        "badge": "https://crests.football-data.org/341.png"
+      },
+      "finished": true,
+      "home_score": 2,
+      "away_score": 1,
+      "round": "Matchweek 6",
+      "competition_logo": null,
+      "broadcasters": [],
+      "source_url": "https://www.premierleague.com/en/news/4675132/all-of-arsenals-fixtures-for-202627-premier-league-season"
+    },
+    {
+      "id": 20262002,
+      "competition": "CHAMPIONS",
+      "league_id": 0,
+      "season_id": 2026,
+      "date_local": "2026-10-13",
+      "kickoff_utc": "2026-10-13T19:00:00Z",
+      "kickoff_confirmed": true,
+      "status": "completed",
+      "home": {
+        "id": 19,
+        "name": "Arsenal",
+        "badge": "https://crests.football-data.org/57.png"
+      },
+      "away": {
+        "id": 521,
+        "name": "Lille",
+        "badge": "https://crests.football-data.org/521.png"
+      },
+      "finished": true,
+      "home_score": 3,
+      "away_score": 0,
+      "round": "League phase · MD2",
+      "competition_logo": null,
+      "broadcasters": [],
+      "source_url": "https://www.uefa.com/uefachampionsleague/news/02a8-2176fa83582b-d99f0b27f405-1000--champions-league-league-phase-fixtures-by-team/"
+    },
+    {
+      "id": 20261007,
+      "competition": "PREMIER",
+      "league_id": 0,
+      "season_id": 2026,
+      "date_local": "2026-10-18",
+      "kickoff_utc": "2026-10-18T15:30:00Z",
+      "kickoff_confirmed": true,
+      "status": "completed",
+      "home": {
+        "id": 351,
+        "name": "Nottingham Forest",
+        "badge": "https://crests.football-data.org/351.png"
+      },
+      "away": {
+        "id": 19,
+        "name": "Arsenal",
+        "badge": "https://crests.football-data.org/57.png"
+      },
+      "finished": true,
+      "home_score": 0,
+      "away_score": 1,
+      "round": "Matchweek 7",
+      "competition_logo": null,
+      "broadcasters": [],
+      "source_url": "https://www.premierleague.com/en/news/4675132/all-of-arsenals-fixtures-for-202627-premier-league-season"
+    },
+    {
+      "id": 20262003,
+      "competition": "CHAMPIONS",
+      "league_id": 0,
+      "season_id": 2026,
+      "date_local": "2026-10-21",
+      "kickoff_utc": "2026-10-21T19:00:00Z",
+      "kickoff_confirmed": true,
+      "status": "completed",
+      "home": {
+        "id": 5,
+        "name": "Bayern Munich",
+        "badge": "https://crests.football-data.org/5.png"
+      },
+      "away": {
+        "id": 19,
+        "name": "Arsenal",
+        "badge": "https://crests.football-data.org/57.png"
+      },
+      "finished": true,
+      "home_score": 2,
+      "away_score": 2,
+      "round": "League phase · MD3",
+      "competition_logo": null,
+      "broadcasters": [],
+      "source_url": "https://www.uefa.com/uefachampionsleague/news/02a8-2176fa83582b-d99f0b27f405-1000--champions-league-league-phase-fixtures-by-team/"
+    },
+    {
+      "id": 20261008,
+      "competition": "PREMIER",
+      "league_id": 0,
+      "season_id": 2026,
+      "date_local": "2026-10-24",
+      "kickoff_utc": "2026-10-24T14:00:00Z",
+      "kickoff_confirmed": true,
+      "status": "completed",
+      "home": {
+        "id": 19,
+        "name": "Arsenal",
+        "badge": "https://crests.football-data.org/57.png"
+      },
+      "away": {
+        "id": 62,
+        "name": "Everton",
+        "badge": "https://crests.football-data.org/62.png"
+      },
+      "finished": true,
+      "home_score": 2,
+      "away_score": 0,
+      "round": "Matchweek 8",
+      "competition_logo": null,
+      "broadcasters": [],
+      "source_url": "https://www.premierleague.com/en/news/4675132/all-of-arsenals-fixtures-for-202627-premier-league-season"
+    },
+    {
+      "id": 20263002,
+      "competition": "CARABAO",
+      "league_id": 0,
+      "season_id": 2026,
+      "date_local": "2026-10-27",
+      "kickoff_utc": "2026-10-27T20:00:00Z",
+      "kickoff_confirmed": true,
+      "status": "completed",
+      "home": {
+        "id": 20105,
+        "name": "Fleetwood Town",
+        "badge": null
+      },
+      "away": {
+        "id": 19,
+        "name": "Arsenal",
+        "badge": "https://crests.football-data.org/57.png"
+      },
+      "finished": true,
+      "home_score": 1,
+      "away_score": 1,
+      "round": "Round 4 · lost 5-3 on penalties",
+      "competition_logo": null,
+      "broadcasters": [],
+      "source_url": "https://www.reuters.com/sports/soccer/fourth-tier-fleetwood-stun-arsenal-league-cup-shootout-2026-10-27/"
+    },
+    {
+      "id": 20261009,
+      "competition": "PREMIER",
+      "league_id": 0,
+      "season_id": 2026,
+      "date_local": "2026-11-01",
+      "kickoff_utc": "2026-11-01T16:30:00Z",
+      "kickoff_confirmed": true,
+      "status": "completed",
+      "home": {
+        "id": 64,
+        "name": "Liverpool",
+        "badge": "https://crests.football-data.org/64.png"
+      },
+      "away": {
+        "id": 19,
+        "name": "Arsenal",
+        "badge": "https://crests.football-data.org/57.png"
+      },
+      "finished": true,
+      "home_score": 0,
+      "away_score": 1,
+      "round": "Matchweek 9",
+      "competition_logo": null,
+      "broadcasters": [],
+      "source_url": "https://www.premierleague.com/en/news/4675132/all-of-arsenals-fixtures-for-202627-premier-league-season"
+    },
+    {
+      "id": 20262004,
+      "competition": "CHAMPIONS",
+      "league_id": 0,
+      "season_id": 2026,
+      "date_local": "2026-11-04",
+      "kickoff_utc": "2026-11-04T20:00:00Z",
+      "kickoff_confirmed": true,
+      "status": "completed",
+      "home": {
+        "id": 20103,
+        "name": "Slavia Praha",
+        "badge": null
+      },
+      "away": {
+        "id": 19,
+        "name": "Arsenal",
+        "badge": "https://crests.football-data.org/57.png"
+      },
+      "finished": true,
+      "home_score": 1,
+      "away_score": 2,
+      "round": "League phase · MD4",
+      "competition_logo": null,
+      "broadcasters": [],
+      "source_url": "https://www.uefa.com/uefachampionsleague/news/02a8-2176fa83582b-d99f0b27f405-1000--champions-league-league-phase-fixtures-by-team/"
+    },
+    {
+      "id": 20261010,
+      "competition": "PREMIER",
+      "league_id": 0,
+      "season_id": 2026,
+      "date_local": "2026-11-07",
+      "kickoff_utc": "2026-11-07T15:00:00Z",
+      "kickoff_confirmed": true,
+      "status": "completed",
+      "home": {
+        "id": 19,
+        "name": "Arsenal",
+        "badge": "https://crests.football-data.org/57.png"
+      },
+      "away": {
+        "id": 20102,
+        "name": "Hull City",
+        "badge": null
+      },
+      "finished": true,
+      "home_score": 1,
+      "away_score": 0,
+      "round": "Matchweek 10",
+      "competition_logo": null,
+      "broadcasters": [],
+      "source_url": "https://www.premierleague.com/en/news/4675132/all-of-arsenals-fixtures-for-202627-premier-league-season"
+    },
+    {
+      "id": 20261011,
+      "competition": "PREMIER",
+      "league_id": 0,
+      "season_id": 2026,
+      "date_local": "2026-11-21",
       "kickoff_utc": "2026-11-21T17:30:00Z",
-      "coverage": "partial",
+      "kickoff_confirmed": true,
+      "status": "scheduled",
+      "home": {
+        "id": 67,
+        "name": "Newcastle",
+        "badge": "https://crests.football-data.org/67.png"
+      },
+      "away": {
+        "id": 19,
+        "name": "Arsenal",
+        "badge": "https://crests.football-data.org/57.png"
+      },
+      "finished": false,
+      "home_score": null,
+      "away_score": null,
+      "round": "Matchweek 11",
+      "competition_logo": null,
       "broadcasters": [
         {
           "country_code": "PL",
@@ -97,14 +555,34 @@
           "source": "timezone.football",
           "source_url": "https://timezone.football/"
         }
-      ]
+      ],
+      "source_url": "https://www.premierleague.com/en/news/4675132/all-of-arsenals-fixtures-for-202627-premier-league-season",
+      "coverage": "partial"
     },
     {
-      "home": "Arsenal",
-      "away": "Dortmund",
-      "competition": "Champions League",
+      "id": 20262005,
+      "competition": "CHAMPIONS",
+      "league_id": 0,
+      "season_id": 2026,
+      "date_local": "2026-11-24",
       "kickoff_utc": "2026-11-24T20:00:00Z",
-      "coverage": "partial",
+      "kickoff_confirmed": true,
+      "status": "scheduled",
+      "home": {
+        "id": 19,
+        "name": "Arsenal",
+        "badge": "https://crests.football-data.org/57.png"
+      },
+      "away": {
+        "id": 4,
+        "name": "Dortmund",
+        "badge": "https://crests.football-data.org/4.png"
+      },
+      "finished": false,
+      "home_score": null,
+      "away_score": null,
+      "round": "League phase · MD5",
+      "competition_logo": null,
       "broadcasters": [
         {
           "country_code": "PL",
@@ -146,7 +624,955 @@
           "source": "timezone.football",
           "source_url": "https://timezone.football/"
         }
-      ]
+      ],
+      "source_url": "https://www.uefa.com/uefachampionsleague/news/02a8-2176fa83582b-d99f0b27f405-1000--champions-league-league-phase-fixtures-by-team/",
+      "coverage": "partial"
+    },
+    {
+      "id": 20261012,
+      "competition": "PREMIER",
+      "league_id": 0,
+      "season_id": 2026,
+      "date_local": "2026-11-29",
+      "kickoff_utc": "2026-11-29T16:30:00Z",
+      "kickoff_confirmed": true,
+      "status": "scheduled",
+      "home": {
+        "id": 19,
+        "name": "Arsenal",
+        "badge": "https://crests.football-data.org/57.png"
+      },
+      "away": {
+        "id": 65,
+        "name": "Manchester City",
+        "badge": "https://crests.football-data.org/65.png"
+      },
+      "finished": false,
+      "home_score": null,
+      "away_score": null,
+      "round": "Matchweek 12",
+      "competition_logo": null,
+      "broadcasters": [],
+      "source_url": "https://www.premierleague.com/en/news/4675132/all-of-arsenals-fixtures-for-202627-premier-league-season"
+    },
+    {
+      "id": 20261013,
+      "competition": "PREMIER",
+      "league_id": 0,
+      "season_id": 2026,
+      "date_local": "2026-12-02",
+      "kickoff_utc": "2026-12-02T20:15:00Z",
+      "kickoff_confirmed": true,
+      "status": "scheduled",
+      "home": {
+        "id": 402,
+        "name": "Brentford",
+        "badge": "https://crests.football-data.org/402.png"
+      },
+      "away": {
+        "id": 19,
+        "name": "Arsenal",
+        "badge": "https://crests.football-data.org/57.png"
+      },
+      "finished": false,
+      "home_score": null,
+      "away_score": null,
+      "round": "Matchweek 13",
+      "competition_logo": null,
+      "broadcasters": [],
+      "source_url": "https://www.premierleague.com/en/news/4675132/all-of-arsenals-fixtures-for-202627-premier-league-season"
+    },
+    {
+      "id": 20261014,
+      "competition": "PREMIER",
+      "league_id": 0,
+      "season_id": 2026,
+      "date_local": "2026-12-06",
+      "kickoff_utc": "2026-12-06T16:30:00Z",
+      "kickoff_confirmed": true,
+      "status": "scheduled",
+      "home": {
+        "id": 73,
+        "name": "Tottenham",
+        "badge": "https://crests.football-data.org/73.png"
+      },
+      "away": {
+        "id": 19,
+        "name": "Arsenal",
+        "badge": "https://crests.football-data.org/57.png"
+      },
+      "finished": false,
+      "home_score": null,
+      "away_score": null,
+      "round": "Matchweek 14",
+      "competition_logo": null,
+      "broadcasters": [],
+      "source_url": "https://www.premierleague.com/en/news/4675132/all-of-arsenals-fixtures-for-202627-premier-league-season"
+    },
+    {
+      "id": 20262006,
+      "competition": "CHAMPIONS",
+      "league_id": 0,
+      "season_id": 2026,
+      "date_local": "2026-12-09",
+      "kickoff_utc": "2026-12-09T20:00:00Z",
+      "kickoff_confirmed": true,
+      "status": "scheduled",
+      "home": {
+        "id": 19,
+        "name": "Arsenal",
+        "badge": "https://crests.football-data.org/57.png"
+      },
+      "away": {
+        "id": 86,
+        "name": "Real Madrid",
+        "badge": "https://crests.football-data.org/86.png"
+      },
+      "finished": false,
+      "home_score": null,
+      "away_score": null,
+      "round": "League phase · MD6",
+      "competition_logo": null,
+      "broadcasters": [],
+      "source_url": "https://www.uefa.com/uefachampionsleague/news/02a8-2176fa83582b-d99f0b27f405-1000--champions-league-league-phase-fixtures-by-team/"
+    },
+    {
+      "id": 20261015,
+      "competition": "PREMIER",
+      "league_id": 0,
+      "season_id": 2026,
+      "date_local": "2026-12-13",
+      "kickoff_utc": "2026-12-13T14:00:00Z",
+      "kickoff_confirmed": true,
+      "status": "scheduled",
+      "home": {
+        "id": 19,
+        "name": "Arsenal",
+        "badge": "https://crests.football-data.org/57.png"
+      },
+      "away": {
+        "id": 1044,
+        "name": "Bournemouth",
+        "badge": "https://crests.football-data.org/1044.png"
+      },
+      "finished": false,
+      "home_score": null,
+      "away_score": null,
+      "round": "Matchweek 15",
+      "competition_logo": null,
+      "broadcasters": [],
+      "source_url": "https://www.premierleague.com/en/news/4675132/all-of-arsenals-fixtures-for-202627-premier-league-season"
+    },
+    {
+      "id": 20261016,
+      "competition": "PREMIER",
+      "league_id": 0,
+      "season_id": 2026,
+      "date_local": "2026-12-20",
+      "kickoff_utc": "2026-12-20T16:30:00Z",
+      "kickoff_confirmed": true,
+      "status": "scheduled",
+      "home": {
+        "id": 19,
+        "name": "Arsenal",
+        "badge": "https://crests.football-data.org/57.png"
+      },
+      "away": {
+        "id": 66,
+        "name": "Manchester United",
+        "badge": "https://crests.football-data.org/66.png"
+      },
+      "finished": false,
+      "home_score": null,
+      "away_score": null,
+      "round": "Matchweek 16",
+      "competition_logo": null,
+      "broadcasters": [],
+      "source_url": "https://www.premierleague.com/en/news/4675132/all-of-arsenals-fixtures-for-202627-premier-league-season"
+    },
+    {
+      "id": 20261017,
+      "competition": "PREMIER",
+      "league_id": 0,
+      "season_id": 2026,
+      "date_local": "2026-12-27",
+      "kickoff_utc": "2026-12-27T19:00:00Z",
+      "kickoff_confirmed": true,
+      "status": "scheduled",
+      "home": {
+        "id": 354,
+        "name": "Crystal Palace",
+        "badge": "https://crests.football-data.org/354.png"
+      },
+      "away": {
+        "id": 19,
+        "name": "Arsenal",
+        "badge": "https://crests.football-data.org/57.png"
+      },
+      "finished": false,
+      "home_score": null,
+      "away_score": null,
+      "round": "Matchweek 17",
+      "competition_logo": null,
+      "broadcasters": [],
+      "source_url": "https://www.premierleague.com/en/news/4675132/all-of-arsenals-fixtures-for-202627-premier-league-season"
+    },
+    {
+      "id": 20261018,
+      "competition": "PREMIER",
+      "league_id": 0,
+      "season_id": 2026,
+      "date_local": "2026-12-30",
+      "kickoff_utc": "2026-12-30T19:30:00Z",
+      "kickoff_confirmed": true,
+      "status": "scheduled",
+      "home": {
+        "id": 63,
+        "name": "Fulham",
+        "badge": "https://crests.football-data.org/63.png"
+      },
+      "away": {
+        "id": 19,
+        "name": "Arsenal",
+        "badge": "https://crests.football-data.org/57.png"
+      },
+      "finished": false,
+      "home_score": null,
+      "away_score": null,
+      "round": "Matchweek 18",
+      "competition_logo": null,
+      "broadcasters": [],
+      "source_url": "https://www.premierleague.com/en/news/4675132/all-of-arsenals-fixtures-for-202627-premier-league-season"
+    },
+    {
+      "id": 20261019,
+      "competition": "PREMIER",
+      "league_id": 0,
+      "season_id": 2026,
+      "date_local": "2027-01-02",
+      "kickoff_utc": null,
+      "kickoff_confirmed": false,
+      "status": "scheduled",
+      "home": {
+        "id": 19,
+        "name": "Arsenal",
+        "badge": "https://crests.football-data.org/57.png"
+      },
+      "away": {
+        "id": 349,
+        "name": "Ipswich Town",
+        "badge": "https://crests.football-data.org/349.png"
+      },
+      "finished": false,
+      "home_score": null,
+      "away_score": null,
+      "round": "Matchweek 19",
+      "competition_logo": null,
+      "broadcasters": [],
+      "source_url": "https://www.premierleague.com/en/news/4675132/all-of-arsenals-fixtures-for-202627-premier-league-season"
+    },
+    {
+      "id": 20261020,
+      "competition": "PREMIER",
+      "league_id": 0,
+      "season_id": 2026,
+      "date_local": "2027-01-06",
+      "kickoff_utc": "2027-01-06T20:00:00Z",
+      "kickoff_confirmed": true,
+      "status": "scheduled",
+      "home": {
+        "id": 19,
+        "name": "Arsenal",
+        "badge": "https://crests.football-data.org/57.png"
+      },
+      "away": {
+        "id": 402,
+        "name": "Brentford",
+        "badge": "https://crests.football-data.org/402.png"
+      },
+      "finished": false,
+      "home_score": null,
+      "away_score": null,
+      "round": "Matchweek 20",
+      "competition_logo": null,
+      "broadcasters": [],
+      "source_url": "https://www.premierleague.com/en/news/4675132/all-of-arsenals-fixtures-for-202627-premier-league-season"
+    },
+    {
+      "id": 20261021,
+      "competition": "PREMIER",
+      "league_id": 0,
+      "season_id": 2026,
+      "date_local": "2027-01-16",
+      "kickoff_utc": null,
+      "kickoff_confirmed": false,
+      "status": "scheduled",
+      "home": {
+        "id": 20102,
+        "name": "Hull City",
+        "badge": null
+      },
+      "away": {
+        "id": 19,
+        "name": "Arsenal",
+        "badge": "https://crests.football-data.org/57.png"
+      },
+      "finished": false,
+      "home_score": null,
+      "away_score": null,
+      "round": "Matchweek 21",
+      "competition_logo": null,
+      "broadcasters": [],
+      "source_url": "https://www.premierleague.com/en/news/4675132/all-of-arsenals-fixtures-for-202627-premier-league-season"
+    },
+    {
+      "id": 20262007,
+      "competition": "CHAMPIONS",
+      "league_id": 0,
+      "season_id": 2026,
+      "date_local": "2027-01-20",
+      "kickoff_utc": "2027-01-20T20:00:00Z",
+      "kickoff_confirmed": true,
+      "status": "scheduled",
+      "home": {
+        "id": 90,
+        "name": "Real Betis",
+        "badge": "https://crests.football-data.org/90.png"
+      },
+      "away": {
+        "id": 19,
+        "name": "Arsenal",
+        "badge": "https://crests.football-data.org/57.png"
+      },
+      "finished": false,
+      "home_score": null,
+      "away_score": null,
+      "round": "League phase · MD7",
+      "competition_logo": null,
+      "broadcasters": [],
+      "source_url": "https://www.uefa.com/uefachampionsleague/news/02a8-2176fa83582b-d99f0b27f405-1000--champions-league-league-phase-fixtures-by-team/"
+    },
+    {
+      "id": 20261022,
+      "competition": "PREMIER",
+      "league_id": 0,
+      "season_id": 2026,
+      "date_local": "2027-01-23",
+      "kickoff_utc": "2027-01-23T17:30:00Z",
+      "kickoff_confirmed": true,
+      "status": "scheduled",
+      "home": {
+        "id": 19,
+        "name": "Arsenal",
+        "badge": "https://crests.football-data.org/57.png"
+      },
+      "away": {
+        "id": 67,
+        "name": "Newcastle",
+        "badge": "https://crests.football-data.org/67.png"
+      },
+      "finished": false,
+      "home_score": null,
+      "away_score": null,
+      "round": "Matchweek 22",
+      "competition_logo": null,
+      "broadcasters": [],
+      "source_url": "https://www.premierleague.com/en/news/4675132/all-of-arsenals-fixtures-for-202627-premier-league-season"
+    },
+    {
+      "id": 20262008,
+      "competition": "CHAMPIONS",
+      "league_id": 0,
+      "season_id": 2026,
+      "date_local": "2027-01-27",
+      "kickoff_utc": "2027-01-27T20:00:00Z",
+      "kickoff_confirmed": true,
+      "status": "scheduled",
+      "home": {
+        "id": 19,
+        "name": "Arsenal",
+        "badge": "https://crests.football-data.org/57.png"
+      },
+      "away": {
+        "id": 20104,
+        "name": "Sabah",
+        "badge": null
+      },
+      "finished": false,
+      "home_score": null,
+      "away_score": null,
+      "round": "League phase · MD8",
+      "competition_logo": null,
+      "broadcasters": [],
+      "source_url": "https://www.uefa.com/uefachampionsleague/news/02a8-2176fa83582b-d99f0b27f405-1000--champions-league-league-phase-fixtures-by-team/"
+    },
+    {
+      "id": 20261023,
+      "competition": "PREMIER",
+      "league_id": 0,
+      "season_id": 2026,
+      "date_local": "2027-01-31",
+      "kickoff_utc": "2027-01-31T16:30:00Z",
+      "kickoff_confirmed": true,
+      "status": "scheduled",
+      "home": {
+        "id": 65,
+        "name": "Manchester City",
+        "badge": "https://crests.football-data.org/65.png"
+      },
+      "away": {
+        "id": 19,
+        "name": "Arsenal",
+        "badge": "https://crests.football-data.org/57.png"
+      },
+      "finished": false,
+      "home_score": null,
+      "away_score": null,
+      "round": "Matchweek 23",
+      "competition_logo": null,
+      "broadcasters": [],
+      "source_url": "https://www.premierleague.com/en/news/4675132/all-of-arsenals-fixtures-for-202627-premier-league-season"
+    },
+    {
+      "id": 20261024,
+      "competition": "PREMIER",
+      "league_id": 0,
+      "season_id": 2026,
+      "date_local": "2027-02-06",
+      "kickoff_utc": null,
+      "kickoff_confirmed": false,
+      "status": "scheduled",
+      "home": {
+        "id": 19,
+        "name": "Arsenal",
+        "badge": "https://crests.football-data.org/57.png"
+      },
+      "away": {
+        "id": 64,
+        "name": "Liverpool",
+        "badge": "https://crests.football-data.org/64.png"
+      },
+      "finished": false,
+      "home_score": null,
+      "away_score": null,
+      "round": "Matchweek 24",
+      "competition_logo": null,
+      "broadcasters": [],
+      "source_url": "https://www.premierleague.com/en/news/4675132/all-of-arsenals-fixtures-for-202627-premier-league-season"
+    },
+    {
+      "id": 20261025,
+      "competition": "PREMIER",
+      "league_id": 0,
+      "season_id": 2026,
+      "date_local": "2027-02-10",
+      "kickoff_utc": "2027-02-10T20:00:00Z",
+      "kickoff_confirmed": true,
+      "status": "scheduled",
+      "home": {
+        "id": 349,
+        "name": "Ipswich Town",
+        "badge": "https://crests.football-data.org/349.png"
+      },
+      "away": {
+        "id": 19,
+        "name": "Arsenal",
+        "badge": "https://crests.football-data.org/57.png"
+      },
+      "finished": false,
+      "home_score": null,
+      "away_score": null,
+      "round": "Matchweek 25",
+      "competition_logo": null,
+      "broadcasters": [],
+      "source_url": "https://www.premierleague.com/en/news/4675132/all-of-arsenals-fixtures-for-202627-premier-league-season"
+    },
+    {
+      "id": 20261026,
+      "competition": "PREMIER",
+      "league_id": 0,
+      "season_id": 2026,
+      "date_local": "2027-02-20",
+      "kickoff_utc": null,
+      "kickoff_confirmed": false,
+      "status": "scheduled",
+      "home": {
+        "id": 19,
+        "name": "Arsenal",
+        "badge": "https://crests.football-data.org/57.png"
+      },
+      "away": {
+        "id": 63,
+        "name": "Fulham",
+        "badge": "https://crests.football-data.org/63.png"
+      },
+      "finished": false,
+      "home_score": null,
+      "away_score": null,
+      "round": "Matchweek 26",
+      "competition_logo": null,
+      "broadcasters": [],
+      "source_url": "https://www.premierleague.com/en/news/4675132/all-of-arsenals-fixtures-for-202627-premier-league-season"
+    },
+    {
+      "id": 20261027,
+      "competition": "PREMIER",
+      "league_id": 0,
+      "season_id": 2026,
+      "date_local": "2027-02-27",
+      "kickoff_utc": null,
+      "kickoff_confirmed": false,
+      "status": "scheduled",
+      "home": {
+        "id": 66,
+        "name": "Manchester United",
+        "badge": "https://crests.football-data.org/66.png"
+      },
+      "away": {
+        "id": 19,
+        "name": "Arsenal",
+        "badge": "https://crests.football-data.org/57.png"
+      },
+      "finished": false,
+      "home_score": null,
+      "away_score": null,
+      "round": "Matchweek 27",
+      "competition_logo": null,
+      "broadcasters": [],
+      "source_url": "https://www.premierleague.com/en/news/4675132/all-of-arsenals-fixtures-for-202627-premier-league-season"
+    },
+    {
+      "id": 20261028,
+      "competition": "PREMIER",
+      "league_id": 0,
+      "season_id": 2026,
+      "date_local": "2027-03-03",
+      "kickoff_utc": "2027-03-03T20:00:00Z",
+      "kickoff_confirmed": true,
+      "status": "scheduled",
+      "home": {
+        "id": 19,
+        "name": "Arsenal",
+        "badge": "https://crests.football-data.org/57.png"
+      },
+      "away": {
+        "id": 354,
+        "name": "Crystal Palace",
+        "badge": "https://crests.football-data.org/354.png"
+      },
+      "finished": false,
+      "home_score": null,
+      "away_score": null,
+      "round": "Matchweek 28",
+      "competition_logo": null,
+      "broadcasters": [],
+      "source_url": "https://www.premierleague.com/en/news/4675132/all-of-arsenals-fixtures-for-202627-premier-league-season"
+    },
+    {
+      "id": 20261029,
+      "competition": "PREMIER",
+      "league_id": 0,
+      "season_id": 2026,
+      "date_local": "2027-03-13",
+      "kickoff_utc": null,
+      "kickoff_confirmed": false,
+      "status": "scheduled",
+      "home": {
+        "id": 61,
+        "name": "Chelsea",
+        "badge": "https://crests.football-data.org/61.png"
+      },
+      "away": {
+        "id": 19,
+        "name": "Arsenal",
+        "badge": "https://crests.football-data.org/57.png"
+      },
+      "finished": false,
+      "home_score": null,
+      "away_score": null,
+      "round": "Matchweek 29",
+      "competition_logo": null,
+      "broadcasters": [],
+      "source_url": "https://www.premierleague.com/en/news/4675132/all-of-arsenals-fixtures-for-202627-premier-league-season"
+    },
+    {
+      "id": 20261030,
+      "competition": "PREMIER",
+      "league_id": 0,
+      "season_id": 2026,
+      "date_local": "2027-03-20",
+      "kickoff_utc": null,
+      "kickoff_confirmed": false,
+      "status": "scheduled",
+      "home": {
+        "id": 19,
+        "name": "Arsenal",
+        "badge": "https://crests.football-data.org/57.png"
+      },
+      "away": {
+        "id": 71,
+        "name": "Sunderland",
+        "badge": "https://crests.football-data.org/71.png"
+      },
+      "finished": false,
+      "home_score": null,
+      "away_score": null,
+      "round": "Matchweek 30",
+      "competition_logo": null,
+      "broadcasters": [],
+      "source_url": "https://www.premierleague.com/en/news/4675132/all-of-arsenals-fixtures-for-202627-premier-league-season"
+    },
+    {
+      "id": 20261031,
+      "competition": "PREMIER",
+      "league_id": 0,
+      "season_id": 2026,
+      "date_local": "2027-04-10",
+      "kickoff_utc": null,
+      "kickoff_confirmed": false,
+      "status": "scheduled",
+      "home": {
+        "id": 20101,
+        "name": "Coventry City",
+        "badge": null
+      },
+      "away": {
+        "id": 19,
+        "name": "Arsenal",
+        "badge": "https://crests.football-data.org/57.png"
+      },
+      "finished": false,
+      "home_score": null,
+      "away_score": null,
+      "round": "Matchweek 31",
+      "competition_logo": null,
+      "broadcasters": [],
+      "source_url": "https://www.premierleague.com/en/news/4675132/all-of-arsenals-fixtures-for-202627-premier-league-season"
+    },
+    {
+      "id": 20261032,
+      "competition": "PREMIER",
+      "league_id": 0,
+      "season_id": 2026,
+      "date_local": "2027-04-17",
+      "kickoff_utc": null,
+      "kickoff_confirmed": false,
+      "status": "scheduled",
+      "home": {
+        "id": 19,
+        "name": "Arsenal",
+        "badge": "https://crests.football-data.org/57.png"
+      },
+      "away": {
+        "id": 58,
+        "name": "Aston Villa",
+        "badge": "https://crests.football-data.org/58.png"
+      },
+      "finished": false,
+      "home_score": null,
+      "away_score": null,
+      "round": "Matchweek 32",
+      "competition_logo": null,
+      "broadcasters": [],
+      "source_url": "https://www.premierleague.com/en/news/4675132/all-of-arsenals-fixtures-for-202627-premier-league-season"
+    },
+    {
+      "id": 20261033,
+      "competition": "PREMIER",
+      "league_id": 0,
+      "season_id": 2026,
+      "date_local": "2027-04-24",
+      "kickoff_utc": null,
+      "kickoff_confirmed": false,
+      "status": "scheduled",
+      "home": {
+        "id": 1044,
+        "name": "Bournemouth",
+        "badge": "https://crests.football-data.org/1044.png"
+      },
+      "away": {
+        "id": 19,
+        "name": "Arsenal",
+        "badge": "https://crests.football-data.org/57.png"
+      },
+      "finished": false,
+      "home_score": null,
+      "away_score": null,
+      "round": "Matchweek 33",
+      "competition_logo": null,
+      "broadcasters": [],
+      "source_url": "https://www.premierleague.com/en/news/4675132/all-of-arsenals-fixtures-for-202627-premier-league-season"
+    },
+    {
+      "id": 20261034,
+      "competition": "PREMIER",
+      "league_id": 0,
+      "season_id": 2026,
+      "date_local": "2027-05-01",
+      "kickoff_utc": null,
+      "kickoff_confirmed": false,
+      "status": "scheduled",
+      "home": {
+        "id": 19,
+        "name": "Arsenal",
+        "badge": "https://crests.football-data.org/57.png"
+      },
+      "away": {
+        "id": 73,
+        "name": "Tottenham",
+        "badge": "https://crests.football-data.org/73.png"
+      },
+      "finished": false,
+      "home_score": null,
+      "away_score": null,
+      "round": "Matchweek 34",
+      "competition_logo": null,
+      "broadcasters": [],
+      "source_url": "https://www.premierleague.com/en/news/4675132/all-of-arsenals-fixtures-for-202627-premier-league-season"
+    },
+    {
+      "id": 20261035,
+      "competition": "PREMIER",
+      "league_id": 0,
+      "season_id": 2026,
+      "date_local": "2027-05-08",
+      "kickoff_utc": null,
+      "kickoff_confirmed": false,
+      "status": "scheduled",
+      "home": {
+        "id": 341,
+        "name": "Leeds United",
+        "badge": "https://crests.football-data.org/341.png"
+      },
+      "away": {
+        "id": 19,
+        "name": "Arsenal",
+        "badge": "https://crests.football-data.org/57.png"
+      },
+      "finished": false,
+      "home_score": null,
+      "away_score": null,
+      "round": "Matchweek 35",
+      "competition_logo": null,
+      "broadcasters": [],
+      "source_url": "https://www.premierleague.com/en/news/4675132/all-of-arsenals-fixtures-for-202627-premier-league-season"
+    },
+    {
+      "id": 20261036,
+      "competition": "PREMIER",
+      "league_id": 0,
+      "season_id": 2026,
+      "date_local": "2027-05-15",
+      "kickoff_utc": null,
+      "kickoff_confirmed": false,
+      "status": "scheduled",
+      "home": {
+        "id": 19,
+        "name": "Arsenal",
+        "badge": "https://crests.football-data.org/57.png"
+      },
+      "away": {
+        "id": 351,
+        "name": "Nottingham Forest",
+        "badge": "https://crests.football-data.org/351.png"
+      },
+      "finished": false,
+      "home_score": null,
+      "away_score": null,
+      "round": "Matchweek 36",
+      "competition_logo": null,
+      "broadcasters": [],
+      "source_url": "https://www.premierleague.com/en/news/4675132/all-of-arsenals-fixtures-for-202627-premier-league-season"
+    },
+    {
+      "id": 20261037,
+      "competition": "PREMIER",
+      "league_id": 0,
+      "season_id": 2026,
+      "date_local": "2027-05-23",
+      "kickoff_utc": null,
+      "kickoff_confirmed": false,
+      "status": "scheduled",
+      "home": {
+        "id": 62,
+        "name": "Everton",
+        "badge": "https://crests.football-data.org/62.png"
+      },
+      "away": {
+        "id": 19,
+        "name": "Arsenal",
+        "badge": "https://crests.football-data.org/57.png"
+      },
+      "finished": false,
+      "home_score": null,
+      "away_score": null,
+      "round": "Matchweek 37",
+      "competition_logo": null,
+      "broadcasters": [],
+      "source_url": "https://www.premierleague.com/en/news/4675132/all-of-arsenals-fixtures-for-202627-premier-league-season"
+    },
+    {
+      "id": 20261038,
+      "competition": "PREMIER",
+      "league_id": 0,
+      "season_id": 2026,
+      "date_local": "2027-05-30",
+      "kickoff_utc": "2027-05-30T15:00:00Z",
+      "kickoff_confirmed": true,
+      "status": "scheduled",
+      "home": {
+        "id": 19,
+        "name": "Arsenal",
+        "badge": "https://crests.football-data.org/57.png"
+      },
+      "away": {
+        "id": 397,
+        "name": "Brighton",
+        "badge": "https://crests.football-data.org/397.png"
+      },
+      "finished": false,
+      "home_score": null,
+      "away_score": null,
+      "round": "Matchweek 38",
+      "competition_logo": null,
+      "broadcasters": [],
+      "source_url": "https://www.premierleague.com/en/news/4675132/all-of-arsenals-fixtures-for-202627-premier-league-season"
     }
+  ],
+  "tables": {
+    "PREMIER": [
+      {
+        "position": 1,
+        "name": "Arsenal",
+        "id": 19,
+        "points": 27,
+        "badge": "https://crests.football-data.org/57.png"
+      },
+      {
+        "position": 2,
+        "name": "Brighton",
+        "id": 397,
+        "points": 22,
+        "badge": "https://crests.football-data.org/397.png"
+      },
+      {
+        "position": 3,
+        "name": "Manchester City",
+        "id": 65,
+        "points": 22,
+        "badge": "https://crests.football-data.org/65.png"
+      },
+      {
+        "position": 4,
+        "name": "Liverpool",
+        "id": 64,
+        "points": 18,
+        "badge": "https://crests.football-data.org/64.png"
+      },
+      {
+        "position": 5,
+        "name": "Chelsea",
+        "id": 61,
+        "points": 16,
+        "badge": "https://crests.football-data.org/61.png"
+      },
+      {
+        "position": 6,
+        "name": "Everton",
+        "id": 62,
+        "points": 16,
+        "badge": "https://crests.football-data.org/62.png"
+      },
+      {
+        "position": 7,
+        "name": "Bournemouth",
+        "id": 1044,
+        "points": 15,
+        "badge": "https://crests.football-data.org/1044.png"
+      }
+    ],
+    "CHAMPIONS": [
+      {
+        "position": 1,
+        "name": "PSG",
+        "id": 524,
+        "points": 12,
+        "badge": "https://crests.football-data.org/524.png"
+      },
+      {
+        "position": 2,
+        "name": "Real Madrid",
+        "id": 86,
+        "points": 12,
+        "badge": "https://crests.football-data.org/86.png"
+      },
+      {
+        "position": 3,
+        "name": "Arsenal",
+        "id": 19,
+        "points": 10,
+        "badge": "https://crests.football-data.org/57.png"
+      },
+      {
+        "position": 4,
+        "name": "Como 1907",
+        "id": 20106,
+        "points": 9,
+        "badge": null
+      },
+      {
+        "position": 5,
+        "name": "Barcelona",
+        "id": 81,
+        "points": 9,
+        "badge": "https://crests.football-data.org/81.png"
+      },
+      {
+        "position": 6,
+        "name": "Aston Villa",
+        "id": 58,
+        "points": 9,
+        "badge": "https://crests.football-data.org/58.png"
+      },
+      {
+        "position": 7,
+        "name": "Manchester City",
+        "id": 65,
+        "points": 9,
+        "badge": "https://crests.football-data.org/65.png"
+      }
+    ]
+  },
+  "league_stats": {
+    "position": 1,
+    "played": 10,
+    "wins": 9,
+    "draws": 0,
+    "losses": 1,
+    "goals_for": 15,
+    "goals_against": 5,
+    "points": 27
+  },
+  "cup_progress": {
+    "CHAMPIONS": {
+      "label": "League phase · 3rd, 10 points",
+      "eliminated": false
+    },
+    "FA_CUP": {
+      "label": "Third round draw pending",
+      "eliminated": false
+    },
+    "CARABAO": {
+      "label": "Eliminated R4 · penalties at Fleetwood",
+      "eliminated": true
+    }
+  },
+  "sources": [
+    "https://www.premierleague.com/en/news/4675132/all-of-arsenals-fixtures-for-202627-premier-league-season",
+    "https://www.uefa.com/uefachampionsleague/news/02a8-2176fa83582b-d99f0b27f405-1000--champions-league-league-phase-fixtures-by-team/",
+    "https://www.efl.com/news/2026/august/28/carabao-cup--third-round-dates-confirmed/",
+    "https://www.reuters.com/sports/soccer/fourth-tier-fleetwood-stun-arsenal-league-cup-shootout-2026-10-27/",
+    "https://www.footballtv.pl/druzyna/arsenal",
+    "https://timezone.football/"
   ]
 }
