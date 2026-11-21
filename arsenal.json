@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "team": "Arsenal FC",
-  "updated_at_utc": "2026-11-21T15:51:17Z",
-  "description": "Manually researched Arsenal TV listings; only the next two matches. Not an exhaustive worldwide broadcast database.",
+  "updated_at_utc": "2026-11-21T16:28:12Z",
+  "description": "Arsenal broadcaster listings (partial). Existing listings unchanged in this phone-publisher connectivity test.",
   "matches": [
     {
       "home": "Newcastle",
