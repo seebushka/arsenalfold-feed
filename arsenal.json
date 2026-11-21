@@ -2,14 +2,14 @@
   "schema_version": 2,
   "team": "Arsenal FC",
   "season": "2026/27",
-  "updated_at_utc": "2026-11-21T16:58:07Z",
+  "updated_at_utc": "2026-11-21T20:05:53Z",
   "data_quality": {
-    "premier_league_fixtures": "38/38 scheduled opponents, with unconfirmed times marked TBC",
+    "premier_league_fixtures": "38/38 league fixtures retained; Jan 2 and Jan 16 kickoff times confirmed; Arsenal–Brentford moved to Jan 5, 19:30 GMT.",
     "champions_league_fixtures": "8/8 announced league-phase fixtures; later knockout ties are added after draws",
     "domestic_cups": "two verified Carabao Cup matches; FA Cup draw pending; future rounds added when confirmed",
-    "league_tables": "PARTIAL TOP SEVEN ONLY: positions can change during live matchdays",
-    "broadcasts": "PARTIAL: next two fixtures only; not an exhaustive worldwide list",
-    "results": "Verified Arsenal results through 7 Nov 2026; no live score disclosure"
+    "league_tables": "PARTIAL TOP SEVEN ONLY; Premier League updated after 21 Nov completed matches, other clubs may change positions on 22–23 Nov.",
+    "broadcasts": "PARTIAL: only the next two matches; broadcaster-specific schedules are distinguished from provisional international aggregator reports. Provisional entries require a matchday check and are not guaranteed live assignments.",
+    "results": "Verified Newcastle 2–2 Arsenal full time on 21 Nov 2026; other earlier results retained unchanged."
   },
   "fixtures": [
     {
@@ -452,7 +452,7 @@
       "date_local": "2026-11-21",
       "kickoff_utc": "2026-11-21T17:30:00Z",
       "kickoff_confirmed": true,
-      "status": "scheduled",
+      "status": "completed",
       "home": {
         "id": 67,
         "name": "Newcastle",
@@ -463,101 +463,13 @@
         "name": "Arsenal",
         "badge": "https://crests.football-data.org/57.png"
       },
-      "finished": false,
-      "home_score": null,
-      "away_score": null,
+      "finished": true,
+      "home_score": 2,
+      "away_score": 2,
       "round": "Matchweek 11",
       "competition_logo": null,
-      "broadcasters": [
-        {
-          "country_code": "PL",
-          "name": "CANAL+ Extra 1",
-          "kind": "tv",
-          "status": "listed",
-          "source": "footballtv.pl",
-          "source_url": "https://www.footballtv.pl/druzyna/arsenal"
-        },
-        {
-          "country_code": "PL",
-          "name": "CANAL+ Extra 3",
-          "kind": "tv",
-          "status": "listed",
-          "source": "FotMob"
-        },
-        {
-          "country_code": "GB",
-          "name": "Sky Sports Premier League",
-          "kind": "tv",
-          "status": "listed",
-          "source": "FotMob"
-        },
-        {
-          "country_code": "GB",
-          "name": "Sky Sports Main Event",
-          "kind": "tv",
-          "status": "listed",
-          "source": "FotMob"
-        },
-        {
-          "country_code": "GB",
-          "name": "Sky Sports Main Event UHD",
-          "kind": "tv",
-          "status": "listed",
-          "source": "FotMob"
-        },
-        {
-          "country_code": "GB",
-          "name": "Sky Sports UHD 1",
-          "kind": "tv",
-          "status": "listed",
-          "source": "FotMob"
-        },
-        {
-          "country_code": "GB",
-          "name": "Sky Sports+ app",
-          "kind": "stream",
-          "status": "listed",
-          "source": "FotMob"
-        },
-        {
-          "country_code": "GB",
-          "name": "NOW",
-          "kind": "stream",
-          "status": "listed",
-          "source": "FotMob"
-        },
-        {
-          "country_code": "US",
-          "name": "USA Network",
-          "kind": "tv",
-          "status": "listed",
-          "source": "FotMob"
-        },
-        {
-          "country_code": "US",
-          "name": "Telemundo",
-          "kind": "tv",
-          "status": "listed",
-          "source": "FotMob"
-        },
-        {
-          "country_code": "US",
-          "name": "fuboTV",
-          "kind": "stream",
-          "status": "listed",
-          "source": "FotMob"
-        },
-        {
-          "country_code": "AU",
-          "name": "Stan Sport",
-          "kind": "stream",
-          "status": "listed",
-          "source": "timezone.football",
-          "source_url": "https://timezone.football/"
-        }
-      ],
-      "source_url": "https://www.premierleague.com/en/news/4675132/all-of-arsenals-fixtures-for-202627-premier-league-season",
-      "coverage": "partial"
+      "broadcasters": [],
+      "source_url": "https://www.reuters.com/sports/soccer/arsenal-held-2-2-draw-by-newcastle-2026-11-21/"
     },
     {
       "id": 20262005,
@@ -597,20 +509,100 @@
           "name": "Amazon Prime Video UK",
           "kind": "stream",
           "status": "listed",
-          "source": "timezone.football",
-          "source_url": "https://timezone.football/"
+          "source": "Radio Times",
+          "source_url": "https://www.radiotimes.com/tv/sport/football/champions-league-2026-27-schedule/"
         },
         {
           "country_code": "US",
           "name": "Paramount+ US",
           "kind": "stream",
           "status": "listed",
-          "source": "timezone.football",
-          "source_url": "https://timezone.football/"
+          "source": "Football Guide",
+          "source_url": "https://www.footballguide.co.uk/matches/arsenal-v-borussia-dortmund"
+        },
+        {
+          "country_code": "AU",
+          "name": "Stan Sport",
+          "kind": "stream",
+          "status": "listed",
+          "source": "Football Guide",
+          "source_url": "https://www.footballguide.co.uk/matches/arsenal-v-borussia-dortmund"
+        },
+        {
+          "country_code": "AL",
+          "name": "Tring Sport 1",
+          "kind": "tv",
+          "status": "provisional",
+          "source": "Live Soccer TV (match listing)",
+          "source_url": "https://www.livesoccertv.com/match/arsenal-vs-borussia-dortmund/182qc"
+        },
+        {
+          "country_code": "DZ",
+          "name": "beIN Sports HD 4",
+          "kind": "tv",
+          "status": "provisional",
+          "source": "Live Soccer TV (match listing)",
+          "source_url": "https://www.livesoccertv.com/match/arsenal-vs-borussia-dortmund/182qc"
+        },
+        {
+          "country_code": "DZ",
+          "name": "TOD",
+          "kind": "stream",
+          "status": "provisional",
+          "source": "Live Soccer TV (match listing)",
+          "source_url": "https://www.livesoccertv.com/match/arsenal-vs-borussia-dortmund/182qc"
+        },
+        {
+          "country_code": "AO",
+          "name": "SuperSport MaXimo 1",
+          "kind": "tv",
+          "status": "provisional",
+          "source": "Live Soccer TV (match listing)",
+          "source_url": "https://www.livesoccertv.com/match/arsenal-vs-borussia-dortmund/182qc"
+        },
+        {
+          "country_code": "AR",
+          "name": "Disney+ Premium Argentina",
+          "kind": "stream",
+          "status": "provisional",
+          "source": "Live Soccer TV (match listing)",
+          "source_url": "https://www.livesoccertv.com/match/arsenal-vs-borussia-dortmund/182qc"
+        },
+        {
+          "country_code": "AM",
+          "name": "FAST TV",
+          "kind": "tv",
+          "status": "provisional",
+          "source": "Live Soccer TV (match listing)",
+          "source_url": "https://www.livesoccertv.com/match/arsenal-vs-borussia-dortmund/182qc"
+        },
+        {
+          "country_code": "AZ",
+          "name": "TV NET",
+          "kind": "tv",
+          "status": "provisional",
+          "source": "Live Soccer TV (match listing)",
+          "source_url": "https://www.livesoccertv.com/match/arsenal-vs-borussia-dortmund/182qc"
+        },
+        {
+          "country_code": "BH",
+          "name": "beIN Sports HD 4",
+          "kind": "tv",
+          "status": "provisional",
+          "source": "Live Soccer TV (match listing)",
+          "source_url": "https://www.livesoccertv.com/match/arsenal-vs-borussia-dortmund/182qc"
+        },
+        {
+          "country_code": "BE",
+          "name": "Pickx+ Sports 3",
+          "kind": "tv",
+          "status": "provisional",
+          "source": "Live Soccer TV (match listing)",
+          "source_url": "https://www.livesoccertv.com/match/arsenal-vs-borussia-dortmund/182qc"
         },
         {
           "country_code": "BR",
-          "name": "HBO Max BR",
+          "name": "Max Brazil",
           "kind": "stream",
           "status": "listed",
           "source": "timezone.football",
@@ -618,11 +610,123 @@
         },
         {
           "country_code": "BG",
-          "name": "MAX Sport 3 BG",
+          "name": "MAX Sport 3",
           "kind": "tv",
           "status": "listed",
           "source": "timezone.football",
           "source_url": "https://timezone.football/"
+        },
+        {
+          "country_code": "CZ",
+          "name": "Nova Sport 3 CZ",
+          "kind": "tv",
+          "status": "provisional",
+          "source": "Live Soccer TV (match listing)",
+          "source_url": "https://www.livesoccertv.com/match/arsenal-vs-borussia-dortmund/182qc"
+        },
+        {
+          "country_code": "DE",
+          "name": "Amazon Prime Video",
+          "kind": "stream",
+          "status": "provisional",
+          "source": "Live Soccer TV (match listing)",
+          "source_url": "https://www.livesoccertv.com/match/arsenal-vs-borussia-dortmund/182qc"
+        },
+        {
+          "country_code": "IN",
+          "name": "Sony LIV",
+          "kind": "stream",
+          "status": "provisional",
+          "source": "Live Soccer TV (match listing)",
+          "source_url": "https://www.livesoccertv.com/match/arsenal-vs-borussia-dortmund/182qc"
+        },
+        {
+          "country_code": "IN",
+          "name": "JioTV",
+          "kind": "stream",
+          "status": "provisional",
+          "source": "Live Soccer TV (match listing)",
+          "source_url": "https://www.livesoccertv.com/match/arsenal-vs-borussia-dortmund/182qc"
+        },
+        {
+          "country_code": "IE",
+          "name": "Premier Sports ROI 1",
+          "kind": "tv",
+          "status": "provisional",
+          "source": "Live Soccer TV (match listing)",
+          "source_url": "https://www.livesoccertv.com/match/arsenal-vs-borussia-dortmund/182qc"
+        },
+        {
+          "country_code": "PH",
+          "name": "beIN Sports 2 Philippines",
+          "kind": "tv",
+          "status": "provisional",
+          "source": "Live Soccer TV (match listing)",
+          "source_url": "https://www.livesoccertv.com/match/arsenal-vs-borussia-dortmund/182qc"
+        },
+        {
+          "country_code": "PT",
+          "name": "DAZN3 Portugal",
+          "kind": "tv",
+          "status": "provisional",
+          "source": "Live Soccer TV (match listing)",
+          "source_url": "https://www.livesoccertv.com/match/arsenal-vs-borussia-dortmund/182qc"
+        },
+        {
+          "country_code": "PT",
+          "name": "DAZN Portugal",
+          "kind": "stream",
+          "status": "provisional",
+          "source": "Live Soccer TV (match listing)",
+          "source_url": "https://www.livesoccertv.com/match/arsenal-vs-borussia-dortmund/182qc"
+        },
+        {
+          "country_code": "QA",
+          "name": "beIN Sports HD 4",
+          "kind": "tv",
+          "status": "provisional",
+          "source": "Live Soccer TV (match listing)",
+          "source_url": "https://www.livesoccertv.com/match/arsenal-vs-borussia-dortmund/182qc"
+        },
+        {
+          "country_code": "RO",
+          "name": "Digi Sport 2 Romania",
+          "kind": "tv",
+          "status": "provisional",
+          "source": "Live Soccer TV (match listing)",
+          "source_url": "https://www.livesoccertv.com/match/arsenal-vs-borussia-dortmund/182qc"
+        },
+        {
+          "country_code": "RO",
+          "name": "Prima Sport 2",
+          "kind": "tv",
+          "status": "provisional",
+          "source": "Live Soccer TV (match listing)",
+          "source_url": "https://www.livesoccertv.com/match/arsenal-vs-borussia-dortmund/182qc"
+        },
+        {
+          "country_code": "RS",
+          "name": "Arena 2 Premium",
+          "kind": "tv",
+          "status": "provisional",
+          "source": "Live Soccer TV (match listing)",
+          "source_url": "https://www.livesoccertv.com/match/arsenal-vs-borussia-dortmund/182qc"
+        },
+        {
+          "country_code": "RU",
+          "name": "Okko Sport",
+          "kind": "stream",
+          "status": "provisional",
+          "source": "Live Soccer TV (match listing)",
+          "source_url": "https://www.livesoccertv.com/match/arsenal-vs-borussia-dortmund/182qc"
+        },
+        {
+          "country_code": "ZA",
+          "name": "SuperSport MaXimo 1",
+          "kind": "tv",
+          "status": "provisional",
+          "source": "Live Soccer TV (match listing)",
+          "source_url": "https://www.livesoccertv.com/match/arsenal-vs-borussia-dortmund/182qc"
         }
       ],
       "source_url": "https://www.uefa.com/uefachampionsleague/news/02a8-2176fa83582b-d99f0b27f405-1000--champions-league-league-phase-fixtures-by-team/",
@@ -652,8 +756,282 @@
       "away_score": null,
       "round": "Matchweek 12",
       "competition_logo": null,
-      "broadcasters": [],
-      "source_url": "https://www.premierleague.com/en/news/4675132/all-of-arsenals-fixtures-for-202627-premier-league-season"
+      "broadcasters": [
+        {
+          "country_code": "PL",
+          "name": "CANAL+ Extra 1",
+          "kind": "tv",
+          "status": "listed",
+          "source": "CANAL+ official schedule",
+          "source_url": "https://www.canalplus.com/pl/sport/pilka-nozna-premier-league/h/18631806_70172/streszczenie-obsada/"
+        },
+        {
+          "country_code": "GB",
+          "name": "Sky Sports Main Event",
+          "kind": "tv",
+          "status": "listed",
+          "source": "Radio Times",
+          "source_url": "https://www.radiotimes.com/tv/sport/football/premier-league-2026-27-tv/"
+        },
+        {
+          "country_code": "GB",
+          "name": "Sky Sports Premier League",
+          "kind": "tv",
+          "status": "listed",
+          "source": "Premier League",
+          "source_url": "https://www.premierleague.com/en/news/4725574"
+        },
+        {
+          "country_code": "GB",
+          "name": "Sky Sports Ultra HDR",
+          "kind": "tv",
+          "status": "listed",
+          "source": "Radio Times",
+          "source_url": "https://www.radiotimes.com/tv/sport/football/premier-league-2026-27-tv/"
+        },
+        {
+          "country_code": "GB",
+          "name": "NOW",
+          "kind": "stream",
+          "status": "listed",
+          "source": "Where's The Match",
+          "source_url": "https://www.wheresthematch.com/arsenal-on-tv/"
+        },
+        {
+          "country_code": "GB",
+          "name": "Sky Go",
+          "kind": "stream",
+          "status": "listed",
+          "source": "Where's The Match",
+          "source_url": "https://www.wheresthematch.com/arsenal-on-tv/"
+        },
+        {
+          "country_code": "US",
+          "name": "USA Network 4K",
+          "kind": "tv",
+          "status": "listed",
+          "source": "FotMob match listing",
+          "source_url": "https://www.fotmob.com/en/matches/manchester-city-vs-arsenal/2rhvvi"
+        },
+        {
+          "country_code": "US",
+          "name": "USA Network",
+          "kind": "tv",
+          "status": "listed",
+          "source": "Match-specific TV guide",
+          "source_url": "https://timezone.football/premier-league/match/2026-11-29-arsenal-v-man-city/"
+        },
+        {
+          "country_code": "US",
+          "name": "Peacock",
+          "kind": "stream",
+          "status": "listed",
+          "source": "timezone.football",
+          "source_url": "https://timezone.football/premier-league/match/2026-11-29-arsenal-v-man-city/"
+        },
+        {
+          "country_code": "US",
+          "name": "fuboTV",
+          "kind": "stream",
+          "status": "provisional",
+          "source": "MatchPal",
+          "source_url": "https://matchpal.io/what-channel-is-arsenal-vs-manchester-city-on"
+        },
+        {
+          "country_code": "AU",
+          "name": "Stan Sport",
+          "kind": "stream",
+          "status": "provisional",
+          "source": "MatchPal",
+          "source_url": "https://matchpal.io/what-channel-is-arsenal-vs-manchester-city-on"
+        },
+        {
+          "country_code": "AM",
+          "name": "Fast Sports",
+          "kind": "tv",
+          "status": "provisional",
+          "source": "MatchPal",
+          "source_url": "https://matchpal.io/what-channel-is-arsenal-vs-manchester-city-on"
+        },
+        {
+          "country_code": "AZ",
+          "name": "FAST TV",
+          "kind": "tv",
+          "status": "provisional",
+          "source": "MatchPal",
+          "source_url": "https://matchpal.io/what-channel-is-arsenal-vs-manchester-city-on"
+        },
+        {
+          "country_code": "CA",
+          "name": "DAZN",
+          "kind": "stream",
+          "status": "provisional",
+          "source": "MatchPal",
+          "source_url": "https://matchpal.io/what-channel-is-arsenal-vs-manchester-city-on"
+        },
+        {
+          "country_code": "CA",
+          "name": "Fubo Sports CA",
+          "kind": "stream",
+          "status": "listed",
+          "source": "FotMob match listing",
+          "source_url": "https://www.fotmob.com/en/matches/manchester-city-vs-arsenal/2rhvvi"
+        },
+        {
+          "country_code": "CZ",
+          "name": "Skylink",
+          "kind": "stream",
+          "status": "provisional",
+          "source": "MatchPal",
+          "source_url": "https://matchpal.io/what-channel-is-arsenal-vs-manchester-city-on"
+        },
+        {
+          "country_code": "DK",
+          "name": "Viaplay Denmark",
+          "kind": "stream",
+          "status": "provisional",
+          "source": "MatchPal",
+          "source_url": "https://matchpal.io/what-channel-is-arsenal-vs-manchester-city-on"
+        },
+        {
+          "country_code": "EE",
+          "name": "Go3 Extra Sports Estonia",
+          "kind": "tv",
+          "status": "provisional",
+          "source": "MatchPal",
+          "source_url": "https://matchpal.io/what-channel-is-arsenal-vs-manchester-city-on"
+        },
+        {
+          "country_code": "GH",
+          "name": "DStv Now",
+          "kind": "stream",
+          "status": "listed",
+          "source": "FotMob match listing",
+          "source_url": "https://www.fotmob.com/en/matches/manchester-city-vs-arsenal/2rhvvi"
+        },
+        {
+          "country_code": "IN",
+          "name": "JioHotstar",
+          "kind": "stream",
+          "status": "provisional",
+          "source": "MatchPal",
+          "source_url": "https://matchpal.io/what-channel-is-arsenal-vs-manchester-city-on"
+        },
+        {
+          "country_code": "ID",
+          "name": "Vidio",
+          "kind": "stream",
+          "status": "provisional",
+          "source": "MatchPal",
+          "source_url": "https://matchpal.io/what-channel-is-arsenal-vs-manchester-city-on"
+        },
+        {
+          "country_code": "IQ",
+          "name": "beIN SPORTS CONNECT",
+          "kind": "stream",
+          "status": "provisional",
+          "source": "MatchPal",
+          "source_url": "https://matchpal.io/what-channel-is-arsenal-vs-manchester-city-on"
+        },
+        {
+          "country_code": "JM",
+          "name": "Disney+ Premium Caribbean",
+          "kind": "stream",
+          "status": "provisional",
+          "source": "MatchPal",
+          "source_url": "https://matchpal.io/what-channel-is-arsenal-vs-manchester-city-on"
+        },
+        {
+          "country_code": "JP",
+          "name": "U-NEXT",
+          "kind": "stream",
+          "status": "provisional",
+          "source": "MatchPal",
+          "source_url": "https://matchpal.io/what-channel-is-arsenal-vs-manchester-city-on"
+        },
+        {
+          "country_code": "MY",
+          "name": "Astro Go",
+          "kind": "stream",
+          "status": "listed",
+          "source": "FotMob match listing",
+          "source_url": "https://www.fotmob.com/en/matches/manchester-city-vs-arsenal/2rhvvi"
+        },
+        {
+          "country_code": "NG",
+          "name": "DStv Now",
+          "kind": "stream",
+          "status": "listed",
+          "source": "FotMob match listing",
+          "source_url": "https://www.fotmob.com/en/matches/manchester-city-vs-arsenal/2rhvvi"
+        },
+        {
+          "country_code": "NL",
+          "name": "Viaplay Netherlands",
+          "kind": "stream",
+          "status": "provisional",
+          "source": "MatchPal",
+          "source_url": "https://matchpal.io/what-channel-is-arsenal-vs-manchester-city-on"
+        },
+        {
+          "country_code": "NZ",
+          "name": "Sky Sport",
+          "kind": "tv",
+          "status": "listed",
+          "source": "US/UK match-specific TV guide",
+          "source_url": "https://onthebox.tv/us/football/arsenal-vs-manchester-city-2026-11-29"
+        },
+        {
+          "country_code": "PE",
+          "name": "Disney+ Premium",
+          "kind": "stream",
+          "status": "provisional",
+          "source": "MatchPal",
+          "source_url": "https://matchpal.io/what-channel-is-arsenal-vs-manchester-city-on"
+        },
+        {
+          "country_code": "SG",
+          "name": "StarHub TV+",
+          "kind": "stream",
+          "status": "listed",
+          "source": "FotMob match listing",
+          "source_url": "https://www.fotmob.com/en/matches/manchester-city-vs-arsenal/2rhvvi"
+        },
+        {
+          "country_code": "SK",
+          "name": "Voyo",
+          "kind": "stream",
+          "status": "provisional",
+          "source": "MatchPal",
+          "source_url": "https://matchpal.io/what-channel-is-arsenal-vs-manchester-city-on"
+        },
+        {
+          "country_code": "KR",
+          "name": "Coupang Play",
+          "kind": "stream",
+          "status": "provisional",
+          "source": "MatchPal",
+          "source_url": "https://matchpal.io/what-channel-is-arsenal-vs-manchester-city-on"
+        },
+        {
+          "country_code": "ZA",
+          "name": "DStv Now",
+          "kind": "stream",
+          "status": "listed",
+          "source": "FotMob match listing",
+          "source_url": "https://www.fotmob.com/en/matches/manchester-city-vs-arsenal/2rhvvi"
+        },
+        {
+          "country_code": "SE",
+          "name": "Viaplay Sweden",
+          "kind": "stream",
+          "status": "provisional",
+          "source": "MatchPal",
+          "source_url": "https://matchpal.io/what-channel-is-arsenal-vs-manchester-city-on"
+        }
+      ],
+      "source_url": "https://www.premierleague.com/en/news/4675132/all-of-arsenals-fixtures-for-202627-premier-league-season",
+      "coverage": "partial"
     },
     {
       "id": 20261013,
@@ -850,8 +1228,8 @@
       "league_id": 0,
       "season_id": 2026,
       "date_local": "2027-01-02",
-      "kickoff_utc": null,
-      "kickoff_confirmed": false,
+      "kickoff_utc": "2027-01-02T15:00:00Z",
+      "kickoff_confirmed": true,
       "status": "scheduled",
       "home": {
         "id": 19,
@@ -876,8 +1254,8 @@
       "competition": "PREMIER",
       "league_id": 0,
       "season_id": 2026,
-      "date_local": "2027-01-06",
-      "kickoff_utc": "2027-01-06T20:00:00Z",
+      "date_local": "2027-01-05",
+      "kickoff_utc": "2027-01-05T19:30:00Z",
       "kickoff_confirmed": true,
       "status": "scheduled",
       "home": {
@@ -904,8 +1282,8 @@
       "league_id": 0,
       "season_id": 2026,
       "date_local": "2027-01-16",
-      "kickoff_utc": null,
-      "kickoff_confirmed": false,
+      "kickoff_utc": "2027-01-16T15:00:00Z",
+      "kickoff_confirmed": true,
       "status": "scheduled",
       "home": {
         "id": 20102,
@@ -1445,7 +1823,7 @@
         "position": 1,
         "name": "Arsenal",
         "id": 19,
-        "points": 27,
+        "points": 28,
         "badge": "https://crests.football-data.org/57.png"
       },
       {
@@ -1464,31 +1842,31 @@
       },
       {
         "position": 4,
+        "name": "Bournemouth",
+        "id": 1044,
+        "points": 18,
+        "badge": "https://crests.football-data.org/1044.png"
+      },
+      {
+        "position": 5,
         "name": "Liverpool",
         "id": 64,
         "points": 18,
         "badge": "https://crests.football-data.org/64.png"
       },
       {
-        "position": 5,
-        "name": "Chelsea",
-        "id": 61,
-        "points": 16,
-        "badge": "https://crests.football-data.org/61.png"
+        "id": 341,
+        "name": "Leeds United",
+        "badge": "https://crests.football-data.org/341.png",
+        "position": 6,
+        "points": 17
       },
       {
-        "position": 6,
+        "position": 7,
         "name": "Everton",
         "id": 62,
         "points": 16,
         "badge": "https://crests.football-data.org/62.png"
-      },
-      {
-        "position": 7,
-        "name": "Bournemouth",
-        "id": 1044,
-        "points": 15,
-        "badge": "https://crests.football-data.org/1044.png"
       }
     ],
     "CHAMPIONS": [
@@ -1545,25 +1923,25 @@
   },
   "league_stats": {
     "position": 1,
-    "played": 10,
+    "played": 11,
     "wins": 9,
-    "draws": 0,
+    "draws": 1,
     "losses": 1,
-    "goals_for": 15,
-    "goals_against": 5,
-    "points": 27
+    "goals_for": 17,
+    "goals_against": 7,
+    "points": 28
   },
   "cup_progress": {
     "CHAMPIONS": {
-      "label": "League phase · 3rd, 10 points",
+      "label": "League phase · 3rd, 10 points (after MD4)",
       "eliminated": false
     },
     "FA_CUP": {
-      "label": "Third round draw pending",
+      "label": "Third round in January · opponent TBC",
       "eliminated": false
     },
     "CARABAO": {
-      "label": "Eliminated R4 · penalties at Fleetwood",
+      "label": "Eliminated R4 · Fleetwood 1–1 Arsenal (5–3 pens)",
       "eliminated": true
     }
   },
@@ -1573,6 +1951,16 @@
     "https://www.efl.com/news/2026/august/28/carabao-cup--third-round-dates-confirmed/",
     "https://www.reuters.com/sports/soccer/fourth-tier-fleetwood-stun-arsenal-league-cup-shootout-2026-10-27/",
     "https://www.footballtv.pl/druzyna/arsenal",
-    "https://timezone.football/"
+    "https://timezone.football/",
+    "https://www.reuters.com/sports/soccer/arsenal-held-2-2-draw-by-newcastle-2026-11-21/",
+    "https://www.premierleague.com/en/news/4675097/all-380-fixtures-for-2026-27",
+    "https://www.premierleague.com/en/news/4764482/fixture-amendments-for-premier-league-matches-in-january-and-early-february",
+    "https://www.brentfordfc.com/en/news/first-team-brentford-premier-league-fixtures-live-sky-sports-december-2026-january-2027",
+    "https://www.radiotimes.com/tv/sport/football/champions-league-2026-27-schedule/",
+    "https://www.canalplus.com/pl/sport/pilka-nozna-premier-league/h/18631806_70172/streszczenie-obsada/",
+    "https://www.fotmob.com/en/matches/manchester-city-vs-arsenal/2rhvvi",
+    "https://matchpal.io/what-channel-is-arsenal-vs-manchester-city-on",
+    "https://www.footballguide.co.uk/matches/arsenal-v-borussia-dortmund",
+    "https://www.livesoccertv.com/match/arsenal-vs-borussia-dortmund/182qc"
   ]
 }
