@@ -1,0 +1,152 @@
+{
+  "schema_version": 1,
+  "team": "Arsenal FC",
+  "updated_at_utc": "2026-11-21T15:51:17Z",
+  "description": "Manually researched Arsenal TV listings; only the next two matches. Not an exhaustive worldwide broadcast database.",
+  "matches": [
+    {
+      "home": "Newcastle",
+      "away": "Arsenal",
+      "competition": "Premier League",
+      "kickoff_utc": "2026-11-21T17:30:00Z",
+      "coverage": "partial",
+      "broadcasters": [
+        {
+          "country_code": "PL",
+          "name": "CANAL+ Extra 1",
+          "kind": "tv",
+          "status": "listed",
+          "source": "footballtv.pl",
+          "source_url": "https://www.footballtv.pl/druzyna/arsenal"
+        },
+        {
+          "country_code": "PL",
+          "name": "CANAL+ Extra 3",
+          "kind": "tv",
+          "status": "listed",
+          "source": "FotMob"
+        },
+        {
+          "country_code": "GB",
+          "name": "Sky Sports Premier League",
+          "kind": "tv",
+          "status": "listed",
+          "source": "FotMob"
+        },
+        {
+          "country_code": "GB",
+          "name": "Sky Sports Main Event",
+          "kind": "tv",
+          "status": "listed",
+          "source": "FotMob"
+        },
+        {
+          "country_code": "GB",
+          "name": "Sky Sports Main Event UHD",
+          "kind": "tv",
+          "status": "listed",
+          "source": "FotMob"
+        },
+        {
+          "country_code": "GB",
+          "name": "Sky Sports UHD 1",
+          "kind": "tv",
+          "status": "listed",
+          "source": "FotMob"
+        },
+        {
+          "country_code": "GB",
+          "name": "Sky Sports+ app",
+          "kind": "stream",
+          "status": "listed",
+          "source": "FotMob"
+        },
+        {
+          "country_code": "GB",
+          "name": "NOW",
+          "kind": "stream",
+          "status": "listed",
+          "source": "FotMob"
+        },
+        {
+          "country_code": "US",
+          "name": "USA Network",
+          "kind": "tv",
+          "status": "listed",
+          "source": "FotMob"
+        },
+        {
+          "country_code": "US",
+          "name": "Telemundo",
+          "kind": "tv",
+          "status": "listed",
+          "source": "FotMob"
+        },
+        {
+          "country_code": "US",
+          "name": "fuboTV",
+          "kind": "stream",
+          "status": "listed",
+          "source": "FotMob"
+        },
+        {
+          "country_code": "AU",
+          "name": "Stan Sport",
+          "kind": "stream",
+          "status": "listed",
+          "source": "timezone.football",
+          "source_url": "https://timezone.football/"
+        }
+      ]
+    },
+    {
+      "home": "Arsenal",
+      "away": "Dortmund",
+      "competition": "Champions League",
+      "kickoff_utc": "2026-11-24T20:00:00Z",
+      "coverage": "partial",
+      "broadcasters": [
+        {
+          "country_code": "PL",
+          "name": "CANAL+ Extra 1",
+          "kind": "tv",
+          "status": "listed",
+          "source": "footballtv.pl",
+          "source_url": "https://www.footballtv.pl/druzyna/arsenal"
+        },
+        {
+          "country_code": "GB",
+          "name": "Amazon Prime Video UK",
+          "kind": "stream",
+          "status": "listed",
+          "source": "timezone.football",
+          "source_url": "https://timezone.football/"
+        },
+        {
+          "country_code": "US",
+          "name": "Paramount+ US",
+          "kind": "stream",
+          "status": "listed",
+          "source": "timezone.football",
+          "source_url": "https://timezone.football/"
+        },
+        {
+          "country_code": "BR",
+          "name": "HBO Max BR",
+          "kind": "stream",
+          "status": "listed",
+          "source": "timezone.football",
+          "source_url": "https://timezone.football/"
+        },
+        {
+          "country_code": "BG",
+          "name": "MAX Sport 3 BG",
+          "kind": "tv",
+          "status": "listed",
+          "source": "timezone.football",
+          "source_url": "https://timezone.football/"
+        }
+      ]
+    }
+  ]
+}
